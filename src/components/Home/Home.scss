@@ -1,0 +1,31 @@
+.banner {
+    width: 100%;
+    background-color: black;
+}
+
+.row {
+    background-color: black;
+    padding: 1rem;
+
+    >h1 {
+        letter-spacing: 2px;
+        font-weight: 500;
+        margin: 0.3rem;
+    }
+
+    >.scrollable-element {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+.card {
+    width: 200px;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.5s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
